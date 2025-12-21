@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Aspiring Security Engineer
+subtitle: ✮⋆˙
 
 profile:
   align: right
@@ -35,4 +35,5 @@ I enjoy playing **classical piano** competitively and in my leisure time. I hold
 Reach out to me on [LinkedIn](https://www.linkedin.com/in/miravuong/) or check out my projects here on [GitHub](https://github.com/miravuong).
 
 Thanks for being here,
+
 𖤐 Mirabel 𖤐
