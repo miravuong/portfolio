@@ -16,6 +16,39 @@
   </head>
 
   <!-- Body -->
+  <style>
+    body::before {
+      content: '';
+      position: fixed;
+      bottom: -10%;
+      right: -5%;
+      width: 70%;
+      height: 70%;
+      background-image: url('{{ "/assets/img/yellowflower.png" | relative_url }}');
+      background-size: contain;
+      background-position: bottom right;
+      background-repeat: no-repeat;
+      filter: blur(10px);
+      z-index: -1;
+      pointer-events: none;
+    }
+    
+    body::after {
+      content: '';
+      position: fixed;
+      top: -10%;
+      left: -5%;
+      width: 50%;
+      height: 50%;
+      background-image: url('{{ "/assets/img/yellowflower.png" | relative_url }}');
+      background-size: contain;
+      background-position: top left;
+      background-repeat: no-repeat;
+      filter: blur(10px);
+      z-index: -1;
+      pointer-events: none;
+    }
+  </style>
   <body class="{% if site.navbar_fixed %}fixed-top-nav{% endif %} {% unless site.footer_fixed %}sticky-bottom-footer{% endunless %}">
     <!-- Header -->
     {% include header.liquid %}
