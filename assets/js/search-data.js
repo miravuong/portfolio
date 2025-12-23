@@ -419,11 +419,21 @@ ninja.data = [{
           description: "Implemented a Fast Gradient Sign Method (FGSM) adversarial attack in PyTorch by training a convolutional neural network (CNN) and generating imperceptibly perturbed inputs that caused controlled misclassification, strengthening understanding of ML model vulnerabilities and adversarial-robust defense.",
           section: "Projects",handler: () => {
               window.location.href = "/portfolio/projects/3_project/";
-            },},{id: "projects-cookie-jar",
-          title: 'Cookie Jar',
+            },},{id: "projects-acm-teachla-ucla-cookie-jar",
+          title: 'ACM TeachLA @ UCLA: Cookie Jar',
           description: "An educational web app that teaches kids about website cookies and internet privacy through interactive games.",
           section: "Projects",handler: () => {
               window.location.href = "/portfolio/projects/4_project/";
+            },},{id: "projects-creativelabs-ucla-bruin-watch",
+          title: 'CreativeLabs @ UCLA: Bruin Watch',
+          description: "A collaborative lecture streaming platform with smart transcript search and real-time study tools.",
+          section: "Projects",handler: () => {
+              window.location.href = "/portfolio/projects/5_project/";
+            },},{id: "projects-com-sci-35l-recipe-app",
+          title: 'COM SCI 35L: Recipe App',
+          description: "Web application for users to upload and share recipes.",
+          section: "Projects",handler: () => {
+              window.location.href = "/portfolio/projects/6_project/";
             },},{
         id: 'social-email',
         title: 'email',
