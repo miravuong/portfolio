@@ -30,7 +30,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/portfolio/cv/";
           },
-        },{id: "post-a-post-with-math",
+        },{id: "post-ngpt-piano-audition-2023",
+        
+          title: "NGPT Piano Audition 2023",
+        
+        description: "video submission for audition",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/portfolio/blog/2023/audition/";
+          
+        },
+      },{id: "post-a-post-with-math",
         
           title: "a post with math",
         
