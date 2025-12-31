@@ -4,7 +4,7 @@ title: projects
 permalink: /projects/
 description: a collection of projects i've worked on ⋆˙⟡
 nav: true
-nav_order: 3
+nav_order: 1
 horizontal: false
 ---
 
