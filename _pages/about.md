@@ -30,10 +30,10 @@ Hello, my name is **Mirabel Vuong**. I'm a Computer Science and Linguistics unde
 
 I have a strong interest in **security engineering**, systems, and digital forensics. Some specific topics I've done technical research on include BLS12-381 for efficient digital signatures and Fast Gradient Sign Method (FGSM) for convolutional neural networks. I also volunteer and teach free computer science classes at elementary schools in Los Angeles with [ACM TeachLA](https://teachla.uclaacm.com/).
 
-I enjoy playing **classical piano** competitively and in my leisure time. I hold two Piano Diplomas from the National Guild of Piano Teachers (NGPT) and have previously won 2x State Honors for Music Teachers Association of California (MTAC) Certificate of Merit. You can listen to some pieces featured in my blog posts.
+I enjoy playing **classical piano** competitively and in my leisure time. I hold two Piano Diplomas from the National Guild of Piano Teachers (NGPT) and have previously won 2x State Honors for Music Teachers Association of California (MTAC) Certificate of Merit. You can listen to some pieces featured in my [blog posts](https://miravuong.github.io/portfolio/blog/2023/audition/).
 
 Reach out to me on [LinkedIn](https://www.linkedin.com/in/miravuong/) or check out my projects here on [GitHub](https://github.com/miravuong).
 
-Thanks for reading,
+Wishing you the best,
 
 𖤐 Mirabel 𖤐
