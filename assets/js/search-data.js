@@ -9,19 +9,19 @@ ninja.data = [{
     handler: () => {
       window.location.href = "/portfolio/";
     },
-  },{id: "nav-projects",
-          title: "projects",
-          description: "a collection of projects i&#39;ve worked on ⋆˙⟡",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/portfolio/projects/";
-          },
-        },{id: "nav-blog",
+  },{id: "nav-blog",
           title: "blog",
           description: "",
           section: "Navigation",
           handler: () => {
             window.location.href = "/portfolio/blog/";
+          },
+        },{id: "nav-projects",
+          title: "projects",
+          description: "a collection of projects i&#39;ve worked on ⋆˙⟡",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/portfolio/projects/";
           },
         },{id: "nav-cv",
           title: "cv",
