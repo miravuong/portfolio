@@ -41,9 +41,20 @@ ninja.data = [{
             window.location.href = "/portfolio/blog/2023/audition/";
           
         },
-      },{id: "post-a-post-with-math",
+      },{id: "post-stem-events",
         
-          title: "a post with math",
+          title: "STEM Events",
+        
+        description: "some photos from my HBPL internship",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/portfolio/blog/2023/hbpl/";
+          
+        },
+      },{id: "post-archive-a-post-with-math",
+        
+          title: "(ARCHIVE) a post with math",
         
         description: "an example of a blog post with some math",
         section: "Posts",
@@ -52,9 +63,9 @@ ninja.data = [{
             window.location.href = "/portfolio/blog/2015/math/";
           
         },
-      },{id: "post-a-post-with-code",
+      },{id: "post-archive-a-post-with-code",
         
-          title: "a post with code",
+          title: "(ARCHIVE) a post with code",
         
         description: "an example of a blog post with some code",
         section: "Posts",
