@@ -21,7 +21,7 @@ The goal here isn’t to present a perfect solve, but to document my reasoning, 
 
 ## Initial Recon
 
-Here's a relevant class layout looked roughly like:
+Here's what the class layout looked roughly like:
 
 ```
 protected:
