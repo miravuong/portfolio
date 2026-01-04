@@ -1,6 +1,6 @@
 ---
 layout: post
-title: sekai - pwn/learning oop
+title: sekai - pwn/learning-oop
 date: 2025-08-16 07:34:00-0400
 description: my first ever ctf attempt
 tags: pwn
