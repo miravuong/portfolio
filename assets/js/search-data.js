@@ -30,7 +30,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/portfolio/cv/";
           },
-        },{id: "post-ngpt-piano-audition-2023",
+        },{id: "post-sekai-pwn-learning-oop",
+        
+          title: "sekai - pwn/learning oop",
+        
+        description: "my first ever ctf attempt",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/portfolio/blog/2025/learning-oop/";
+          
+        },
+      },{id: "post-ngpt-piano-audition-2023",
         
           title: "NGPT Piano Audition 2023",
         
