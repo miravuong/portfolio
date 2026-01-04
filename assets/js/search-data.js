@@ -32,7 +32,7 @@ ninja.data = [{
           },
         },{id: "post-sekai-pwn-learning-oop",
         
-          title: "sekai - pwn/learning oop",
+          title: "sekai - pwn/learning-oop",
         
         description: "my first ever ctf attempt",
         section: "Posts",
