@@ -3,6 +3,8 @@
 import { useEffect, useState } from "react";
 import Image from "next/image";
 
+const basePath = process.env.__NEXT_ROUTER_BASEPATH || "/portfolio";
+
 export default function ThemeToggle() {
   const [dark, setDark] = useState(false);
 
@@ -24,7 +26,7 @@ export default function ThemeToggle() {
   return (
     <button onClick={toggle} aria-label="Toggle dark mode">
       <Image
-        src="/coder.png"
+        src={`${basePath}/coder.png`}
         alt="Toggle theme"
         width={32}
         height={32}

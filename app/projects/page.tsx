@@ -44,6 +44,8 @@ const projects = [
 
 import Image from "next/image";
 
+const basePath = process.env.__NEXT_ROUTER_BASEPATH || "/portfolio";
+
 export default function ProjectsPage() {
   return (
     <div>
@@ -68,7 +70,7 @@ export default function ProjectsPage() {
       </div>
       <div className="flex justify-end mt-12">
         <Image
-          src="/sideimage.png"
+          src={`${basePath}/sideimage.png`}
           alt=""
           width={120}
           height={200}

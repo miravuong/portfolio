@@ -1,12 +1,14 @@
 import Image from "next/image";
 
+const basePath = process.env.__NEXT_ROUTER_BASEPATH || "/portfolio";
+
 export default function AboutPage() {
   return (
     <article className="space-y-5 leading-relaxed">
       <div className="flex flex-col sm:flex-row sm:items-start sm:justify-between gap-6">
         <div className="space-y-5">
           <Image
-            src="/title.png"
+            src={`${basePath}/title.png`}
             alt="Mirabel Vuong"
             width={300}
             height={150}
@@ -22,14 +24,14 @@ export default function AboutPage() {
 
         <div className="relative shrink-0 w-[200px] h-[200px] self-center sm:self-start">
           <Image
-            src="/notetab.png"
+            src={`${basePath}/notetab.png`}
             alt=""
             fill
             className="object-contain title-img"
           />
           <div className="absolute inset-[12%] top-[14%]">
             <Image
-              src="/headshot.jpg"
+              src={`${basePath}/headshot.jpg`}
               alt="Mirabel Vuong"
               fill
               className="object-cover"
@@ -88,7 +90,7 @@ export default function AboutPage() {
       <div className="pt-12 flex flex-col sm:flex-row sm:justify-between gap-6">
         <div>
           <Image
-            src="/ffheader.png"
+            src={`${basePath}/ffheader.png`}
             alt="Fun Facts"
             width={150}
             height={75}
@@ -104,7 +106,7 @@ export default function AboutPage() {
           ].map((fact) => (
             <li key={fact} className="flex items-start gap-2">
               <Image
-                src="/checkmark.png"
+                src={`${basePath}/checkmark.png`}
                 alt=""
                 width={24}
                 height={24}
