@@ -49,7 +49,14 @@ const basePath = process.env.__NEXT_ROUTER_BASEPATH || "/portfolio";
 export default function ProjectsPage() {
   return (
     <div>
-      <h1 className="text-2xl font-bold mb-8">Projects</h1>
+      <Image
+        src={`${basePath}/pheader.png`}
+        alt="Projects"
+        width={300}
+        height={150}
+        className="title-img mb-8"
+        priority
+      />
       <div className="space-y-8">
         {projects.map((project) => (
           <div key={project.title} className="border-b border-foreground/10 pb-6">
@@ -70,7 +77,7 @@ export default function ProjectsPage() {
       </div>
       <div className="flex justify-end mt-12">
         <Image
-          src={`${basePath}/sideimage.png`}
+          src={`${basePath}/eegg.png`}
           alt=""
           width={120}
           height={200}
