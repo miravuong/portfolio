@@ -76,7 +76,7 @@ export default function ProjectsPage() {
                   {project.title}
                 </a>
               ) : (
-                project.title
+                <span className="underline">{project.title}</span>
               )}
             </h2>
             <p className="text-sm text-foreground/50 mt-1">{project.tech}</p>
