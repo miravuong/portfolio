@@ -7,6 +7,11 @@ const projects = [
     link: "https://github.com/miravuong/tripwire",
   },
   {
+    title: "chug-track",
+    description: "drink-tracker app. i love heytea!",
+    tech: "TypeScript, MongoDB",
+  },
+  {
     title: "Group Bot Signature",
     description:
       "Prototype implementation of HTTP Message Signatures using BBS group signatures for privacy-preserving bot authentication and accountability.",
@@ -61,14 +66,18 @@ export default function ProjectsPage() {
         {projects.map((project) => (
           <div key={project.title} className="border-b border-foreground/10 pb-6">
             <h2 className="text-lg font-semibold">
-              <a
-                href={project.link}
-                className="underline hover:opacity-60"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                {project.title}
-              </a>
+              {project.link ? (
+                <a
+                  href={project.link}
+                  className="underline hover:opacity-60"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  {project.title}
+                </a>
+              ) : (
+                project.title
+              )}
             </h2>
             <p className="text-sm text-foreground/50 mt-1">{project.tech}</p>
             <p className="mt-2">{project.description}</p>
