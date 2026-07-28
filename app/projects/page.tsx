@@ -10,6 +10,7 @@ const projects = [
     title: "chug-track",
     description: "drink-tracker app. i love heytea!",
     tech: "TypeScript, MongoDB",
+    demo: "https://github.com/miravuong",
   },
   {
     title: "Group Bot Signature",
@@ -31,6 +32,7 @@ const projects = [
       "An educational web app that teaches kids about website cookies and internet privacy through interactive games.",
     tech: "React, TypeScript, Express, Node.js, MongoDB",
     link: "https://github.com/uclaacm/cookie-jar",
+    demo: "https://cookie-jar.netlify.app/",
   },
   {
     title: "CreativeLabs: Bruin Watch",
@@ -81,6 +83,30 @@ export default function ProjectsPage() {
             </h2>
             <p className="text-sm text-foreground/50 mt-1">{project.tech}</p>
             <p className="mt-2">{project.description}</p>
+            {project.demo && (
+              <a
+                href={project.demo}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-1 mt-2 text-sm text-foreground/40 hover:text-foreground/60"
+              >
+                live demo
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="12"
+                  height="12"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  strokeWidth="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                >
+                  <line x1="7" y1="17" x2="17" y2="7" />
+                  <polyline points="7 7 17 7 17 17" />
+                </svg>
+              </a>
+            )}
           </div>
         ))}
       </div>
